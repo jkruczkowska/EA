@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>aeaf3bff-693d-401b-a1c6-eb964c10d404</OriginalElement>
+  <nodes>
+    <node x="630.375" y="201.0">aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.beacon</node>
+    <node x="0.0" y="490.5">aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.scenario_events</node>
+    <node x="645.875" y="658.0">aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.beacon_tasks</node>
+    <node x="201.0" y="776.0">aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.role</node>
+    <node x="210.41145833333331" y="658.0">aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.event_tasks</node>
+    <node x="19.3125" y="0.0">aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.scenario</node>
+    <node x="0.0" y="776.0">aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.ranking</node>
+    <node x="116.625" y="223.0">aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.event</node>
+    <node x="520.125" y="446.0">aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.task</node>
+    <node x="341.625" y="490.5">aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.event_users</node>
+    <node x="351.625" y="168.0">aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.user</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.event_users" target="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.user">
+      <point x="37.25" y="-36.5" />
+      <point x="453.375" y="426.0" />
+      <point x="471.125" y="426.0" />
+      <point x="0.0" y="114.0" />
+    </edge>
+    <edge source="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.scenario_events" target="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.event">
+      <point x="42.25" y="-36.5" />
+      <point x="126.75" y="426.0" />
+      <point x="143.5" y="426.0" />
+      <point x="-80.625" y="59.0" />
+    </edge>
+    <edge source="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.event_tasks" target="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.event">
+      <point x="-37.25" y="-36.5" />
+      <point x="247.66145833333331" y="633.0" />
+      <point x="179.5" y="633.0" />
+      <point x="179.5" y="426.0" />
+      <point x="197.25" y="426.0" />
+      <point x="-26.875" y="59.0" />
+    </edge>
+    <edge source="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.scenario_events" target="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.scenario">
+      <point x="-42.25" y="-36.5" />
+      <point x="42.25" y="143.0" />
+      <point x="71.8125" y="143.0" />
+      <point x="-52.5" y="59.0" />
+    </edge>
+    <edge source="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.event_users" target="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.event">
+      <point x="-37.25" y="-36.5" />
+      <point x="378.875" y="426.0" />
+      <point x="251.0" y="426.0" />
+      <point x="26.875" y="59.0" />
+    </edge>
+    <edge source="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.beacon_tasks" target="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.beacon">
+      <point x="40.0" y="-36.5" />
+      <point x="765.875" y="633.0" />
+      <point x="748.875" y="633.0" />
+      <point x="748.875" y="426.0" />
+      <point x="796.875" y="426.0" />
+      <point x="55.5" y="81.0" />
+    </edge>
+    <edge source="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.task" target="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.beacon">
+      <point x="52.5" y="-81.0" />
+      <point x="677.625" y="426.0" />
+      <point x="685.875" y="426.0" />
+      <point x="-55.5" y="81.0" />
+    </edge>
+    <edge source="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.beacon_tasks" target="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.task">
+      <point x="-40.0" y="-36.5" />
+      <point x="685.875" y="633.0" />
+      <point x="677.625" y="633.0" />
+      <point x="52.5" y="81.0" />
+    </edge>
+    <edge source="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.task" target="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.event">
+      <point x="-52.5" y="-81.0" />
+      <point x="572.625" y="416.0" />
+      <point x="304.75" y="416.0" />
+      <point x="80.625" y="59.0" />
+    </edge>
+    <edge source="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.event" target="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.scenario">
+      <point x="0.0" y="-59.0" />
+      <point x="224.125" y="143.0" />
+      <point x="176.8125" y="143.0" />
+      <point x="52.5" y="59.0" />
+    </edge>
+    <edge source="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.event_tasks" target="aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.task">
+      <point x="37.25" y="-36.5" />
+      <point x="322.1614583333333" y="633.0" />
+      <point x="572.625" y="633.0" />
+      <point x="-52.5" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.48956158663883087" x="422.5" y="469.0" />
+  <SelectedNodes>
+    <node>aeaf3bff-693d-401b-a1c6-eb964c10d404.TABLE:event_architect.scenario</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
